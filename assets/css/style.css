@@ -8403,13 +8403,23 @@ Version: 1.1.0
   padding: 0;
   font-size: 24px;
   position: relative;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.simple-icon:hover {
+  background-color: transparent;
+  color: inherit;
+  border: none;
 }
 .simple-icon:has(.badge) {
-  padding-right: 8px;
+  padding-right: 0;
 }
 .simple-icon .badge {
-  top: -8px;
-  right: 0;
   font-size: 12px;
 }
 
@@ -8419,13 +8429,23 @@ Version: 1.1.0
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 16px;
 }
 .header-button .icon-btn .badge {
   font-size: 12px;
   top: 0;
   right: 0;
+}
+.header-button .icon-btn.simple-icon .badge {
+  top: -14px;
+  right: -10px;
+  background-color: #ffff00;
+  color: #000000;
+}
+.header-button .icon-btn.simple-icon:hover .badge {
+  background-color: #ffff00;
+  color: #000000;
 }
 .header-button .icon-btn:hover .badge {
   background: var(--white-color);
@@ -8814,10 +8834,24 @@ Version: 1.1.0
 }
 .header-default.style-2 .header-button .icon-btn {
   color: #ffffff;
-  border-color: rgba(255, 255, 255, 0.4);
 }
 .header-default.style-2 .header-button .icon-btn:hover {
   color: #ffffff;
+}
+.header-default.style-2 .header-button .icon-btn.simple-icon {
+  border: none;
+  background-color: transparent;
+}
+.header-default.style-2 .header-button.d-flex {
+  gap: 24px;
+  margin-left: -12px;
+}
+
+@media (max-width: 767px) {
+  .header-default.style-2 .menu-area {
+    margin-top: 0;
+    padding-top: 22px;
+  }
 }
 
 @media (max-width: 1600px) {

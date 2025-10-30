@@ -7845,7 +7845,7 @@ Version: 1.1.0
 .footer-widget .widget {
   padding: 40px;
   border: none;
-  background-color: #3F9065;
+  background-color: #ffffff;
   -webkit-box-shadow: none;
           box-shadow: none;
   text-align: center;
@@ -8430,7 +8430,7 @@ Version: 1.1.0
   -webkit-box-align: center;
       -ms-flex-align: center;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 .header-button .icon-btn .badge {
   font-size: 12px;
@@ -8844,7 +8844,7 @@ Version: 1.1.0
 }
 .header-default.style-2 .header-button.d-flex {
   gap: 24px;
-  margin-left: -12px;
+  margin-left: -20px;
 }
 
 @media (max-width: 767px) {
@@ -9062,7 +9062,7 @@ Version: 1.1.0
 .footer-wrapper.footer-default .copyright-wrap {
   padding: 0px 0;
   background-size: 100% auto;
-  background-color: #3F9065;
+  background-color: #ffffff;
 }
 .footer-wrapper.footer-default .copyright-wrap .copyright-text a {
   font-size: 18px;
@@ -19151,7 +19151,7 @@ Version: 1.1.0
 .slider-2-pag-wrap .swiper-pagination-bullet.swiper-pagination-bullet-active {
   -webkit-transform: scale(1.9);
           transform: scale(1.9);
-  background: #3F9065;
+  background: #ffffff;
 }
 
 /* Extra large devices */
@@ -29743,7 +29743,7 @@ Version: 1.1.0
 
 /* Cta sec 9 ---------------------------------- */
 .offer-box3-wrap:nth-child(1) .offer-box3.style-2.style-3 {
-  background: #3F9065;
+  background: #ffffff;
 }
 .offer-box3-wrap:nth-child(1) .offer-box3.style-2.style-3 .offer-3-wrap .offer-3:before {
   background: #005126;

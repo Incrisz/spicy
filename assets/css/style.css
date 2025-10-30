@@ -8778,6 +8778,39 @@ Version: 1.1.0
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.header-default.style-2 .menu-area {
+  background-color: #ff0000;
+}
+.header-default.style-2 .sticky-wrapper,
+.header-default.style-2 .sticky-wrapper.sticky {
+  background-color: #ff0000;
+}
+.header-default.style-2 .main-menu > ul > li > a {
+  color: #ffffff;
+}
+.header-default.style-2 .main-menu > ul > li > a:focus,
+.header-default.style-2 .main-menu > ul > li:hover > a,
+.header-default.style-2 .main-menu > ul > li > a:hover {
+  color: #ffffff;
+}
+.header-default.style-2 .main-menu ul li:has(.sub-menu) > a:after,
+.header-default.style-2 .main-menu ul li:has(.mega-menu) > a:after,
+.header-default.style-2 .main-menu ul li.menu-item-has-children > a:after {
+  color: #ffffff;
+}
+.header-default.style-2 .main-menu ul li:has(.sub-menu) > a:hover:after,
+.header-default.style-2 .main-menu ul li:has(.mega-menu) > a:hover:after,
+.header-default.style-2 .main-menu ul li.menu-item-has-children > a:hover:after,
+.header-default.style-2 .main-menu ul li:hover > a:after {
+  color: #ffffff;
+}
+.header-default.style-2 .header-button .icon-btn {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.header-default.style-2 .header-button .icon-btn:hover {
+  color: #ffffff;
+}
 
 @media (max-width: 1600px) {
   .header-layout2 .th-btn {

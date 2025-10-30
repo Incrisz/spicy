@@ -8524,6 +8524,9 @@ Version: 1.1.0
 .header-links .th-social a:hover {
   color: var(--title-color);
 }
+/* .header-links-offset {
+  margin-left: 405px
+} */
 
 .header-notice {
   margin: 0;

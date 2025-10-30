@@ -1415,13 +1415,18 @@ ul.wp-block-rss a {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
+.size-top-wrap.style-2 .box-btn i {
+  background-color: #ffff00;
+  color: #000000;
+}
 
 .size-top-wrap.style-2:hover .box-social {
   width: 60px;
 }
 
 .size-top-wrap.style-2:hover .box-btn i {
-  background: var(--theme-color2);
+  background-color: #ffff00;
+  color: #000000;
 }
 
 .footer-wrapper.footer-layout1.style2.wp-footer1 {

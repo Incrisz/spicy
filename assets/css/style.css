@@ -97,7 +97,7 @@ Version: 1.1.0
   --smoke-color: #F7F2E2;
   --smoke-color2: #E9C590;
   --smoke-color3: #F2F2F2;
-  --smoke-color4: #FDE1B9;
+  --smoke-color4: #ff0000;
   --black-color: #000000;
   --black-color2: #ff0000;
   --black-color3: #171717;
@@ -14470,8 +14470,8 @@ Version: 1.1.0
 }
 .summary-content .actions .icon-btn,
 .product-about .actions .icon-btn {
-  border-color: #FDE1B9;
-  background-color: #FDE1B9;
+  border-color: #ff0000;
+  background-color: #ff0000;
   color: var(--theme-color2);
   border-radius: 50%;
 }
@@ -14561,7 +14561,7 @@ Version: 1.1.0
   height: 56px;
   width: 56px;
   line-height: 58px;
-  background: #FDE1B9;
+  background: #ff0000;
   border-radius: 50%;
   color: var(--theme-color2);
   font-size: 19px;
@@ -22514,7 +22514,7 @@ Version: 1.1.0
 }
 /* Category Box 3 -------------------------------------*/
 .category-sec-3 {
-  background: #FDE1B9;
+  background: #ff0000;
 }
 
 .category-card.style-2 {
@@ -23851,7 +23851,7 @@ Version: 1.1.0
 /* Restaurant location css
  ---------------------------------*/
 .restaurant-location-sec-1 {
-  background: #FDE1B9;
+  background: #ff0000;
 }
 
 .location-content {
@@ -31032,7 +31032,7 @@ Version: 1.1.0
   position: relative;
 }
 .coming-3-wrapper .coming3-bg-mask {
-  background: #FDE1B9;
+  background: #ff0000;
   position: absolute;
   top: 0;
   left: 0;
@@ -31150,7 +31150,7 @@ Version: 1.1.0
     margin-top: 0;
     z-index: 3;
     position: relative;
-    background: #FDE1B9;
+    background: #ff0000;
     padding: 50px 40px;
     border-radius: 30px;
   }
@@ -32859,7 +32859,7 @@ Version: 1.1.0
 }
 /* Testimonials 5  -------------------------------*/
 .testi-card5 {
-  background: #FDE1B9;
+  background: #ff0000;
   border-radius: 16px;
   padding: 50px;
   -webkit-transition: 0.4s;

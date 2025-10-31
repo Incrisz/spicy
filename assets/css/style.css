@@ -3979,7 +3979,7 @@ Version: 1.1.0
   line-height: 1.417;
   font-weight: 600;
   margin-top: -0.32em;
-  color: #ffffff;
+  color: #000000;
 }
 .box-title a {
   color: inherit;
@@ -3991,6 +3991,10 @@ Version: 1.1.0
 .box-subtitle {
   margin-bottom: 8px;
   color: #ffffff;
+}
+
+.box-text {
+  color: #000000;
 }
 
 .box-title2 {
